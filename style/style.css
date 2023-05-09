@@ -6,6 +6,21 @@
       background-color:#000000;
     }
 
+    #world{
+      height:60vmin;
+      width:60vmin;
+      background-color:#ffffff;
+      position: absolute;
+      top:calc(50vh - 30vmin - 10vh);
+      left:calc(50vw - 30vmin);
+    }
+
+    .cell{
+      height:1%;
+      width:1%;
+      background-color:#ffffff;
+    }
+
     p{
       font-size: 15vmin;
       line-height: 0.2;
@@ -13,14 +28,11 @@
       font-family: "微軟正黑體", sans-serif;
       font-weight: lighter;
       text-align: center;
-      position: absolute;
-      top:calc(50vh - 40vmin);
-      left:calc(50vw - 36vmin);
       user-select: none;
     }
 
     a{
-      color:RGBA(245,144,44,1);
+      color:#04c852;
       font-family: "微軟正黑體", sans-serif;
       font-weight: lighter;
       text-align: center;
@@ -48,18 +60,17 @@
     footer p{
       font-size: 3.5vh;
       position: static;
-      user-select: none;
-      color:RGBA(245,144,44,1);
+      color:#04c852;
       text-shadow:0 0 0.2vw #ffffff;
       text-shadow:0 0 0.5vw #ffffff;
-      text-shadow:0 0 0.2vw #f23113;
-      text-shadow:0 0 0.5vw #f23113;
-      text-shadow:0 0 0.7vw #f23113;
-      text-shadow:0 0 1.0vw #f23113;
-      text-shadow:0 0 1.2vw #f23113;
-      text-shadow:0 0 1.5vw #f23113;
-      text-shadow:0 0 1.7vw #f23113;
-      text-shadow:0 0 2.0vw #f23113;
+      text-shadow:0 0 0.2vw #04c852;
+      text-shadow:0 0 0.5vw #04c852;
+      text-shadow:0 0 0.7vw #04c852;
+      text-shadow:0 0 1.0vw #04c852;
+      text-shadow:0 0 1.2vw #04c852;
+      text-shadow:0 0 1.5vw #04c852;
+      text-shadow:0 0 1.7vw #04c852;
+      text-shadow:0 0 2.0vw #04c852;
     }
 
     footer a.twitter{

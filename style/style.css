@@ -18,7 +18,13 @@
     .cell{
       height:1%;
       width:1%;
+      margin:0;
       background-color:#ffffff;
+      float: left;
+    }
+
+    .alive{
+      background-color:#000000;
     }
 
     p{

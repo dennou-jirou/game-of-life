@@ -40,7 +40,7 @@ function world_refresh(){
       cell_check(i,j);
     }
   }
-  if(!timer_refresh){timer_refresh=setTimeout(world_refresh,1000);}
+  if(!timer_refresh){timer_refresh=setTimeout(world_refresh,250);}
 }
 
 function cell_check(x,y){
